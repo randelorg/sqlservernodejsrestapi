@@ -1,5 +1,4 @@
 var Db  = require('./dboperations');
-var Order = require('./order');
 const dboperations = require('./dboperations');
 
 var express = require('express');
@@ -44,8 +43,6 @@ router.route('/orders').post((request,response)=>{
     })
 
 })
-
-
 
 
 var port = process.env.PORT || 8090;
